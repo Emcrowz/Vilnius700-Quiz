@@ -4,3 +4,8 @@
   align-items: center;
   margin-bottom: 2rem;
 }
+
+.start h2,
+h3 {
+  text-align: center;
+}
