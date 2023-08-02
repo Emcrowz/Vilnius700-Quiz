@@ -18,6 +18,7 @@ import "./_ComponentStyle.css";
 import styles from "./App.module.css";
 
 const SECS_PER_QUESTION = 10;
+const TOPIC = "Vilnius";
 
 const initialState = {
   questions: [],
@@ -139,7 +140,11 @@ function App() {
         {status === "error" && <Error />}
         {status === "ready" && (
           <>
-            <StartScreen numQuestions={numQuestions} dispatch={dispatch} />
+            <StartScreen
+              topic={TOPIC}
+              numQuestions={numQuestions}
+              dispatch={dispatch}
+            />
             <Footer>Placeholder for information and credit buttons!</Footer>
           </>
         )}
