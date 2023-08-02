@@ -12,7 +12,7 @@ import FinishScreen from "./FinishScreen";
 import Footer from "./Footer";
 import Timer from "./Timer";
 import QuizScreen from "./QuizScreen";
-import ScoreBoard from "./ScoreBoard";
+// import ScoreBoard from "./ScoreBoard";
 
 import "./_ComponentStyle.css";
 import styles from "./App.module.css";
@@ -95,12 +95,12 @@ function reducer(state, action) {
         ...state,
         status: "ready",
       };
-    case "scoreboard":
-      return {
-        ...initialState,
-        questions: state.questions,
-        status: "results",
-      };
+    // case "scoreboard":
+    //   return {
+    //     ...initialState,
+    //     questions: state.questions,
+    //     status: "results",
+    //   };
     case "tick":
       return {
         ...state,
@@ -183,7 +183,7 @@ function App() {
           />
         )}
 
-        {status === "results" && <ScoreBoard dispatch={dispatch} />}
+        {/* {status === "results" && <ScoreBoard dispatch={dispatch} />} */}
       </Main>
     </div>
   );
