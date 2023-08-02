@@ -1,0 +1,7 @@
+.options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  flex-direction: column;
+  gap: 1.45rem;
+  margin-bottom: 3.2rem;
+}

@@ -1,0 +1,53 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "start": {
+      "name": "start",
+      "command": "yarn start",
+      "runAtStart": true,
+      "preview": {
+        "port": 3000
+      }
+    },
+    "build": {
+      "name": "build",
+      "command": "yarn build",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "yarn test",
+      "runAtStart": false
+    },
+    "eject": {
+      "name": "eject",
+      "command": "yarn eject",
+      "runAtStart": false
+    },
+    "server": {
+      "name": "server",
+      "command": "yarn server",
+      "runAtStart": false
+    },
+    "serverscores": {
+      "name": "serverscores",
+      "command": "serverscores"
+    },
+    "serverq": {
+      "name": "serverq",
+      "command": "serverq"
+    },
+    "json-server --watch data/scoreboard.json --port 8001": {
+      "name": "json-server --watch data/scoreboard.json --port 8001",
+      "command": "json-server --watch data/scoreboard.json --port 8001"
+    }
+  }
+}

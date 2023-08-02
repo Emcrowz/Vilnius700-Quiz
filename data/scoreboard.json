@@ -1,0 +1,22 @@
+{
+  "scoreboard": [
+    {
+      "id": 0,
+      "name": "Hurr Durr",
+      "email": "hurrdurr@meme.com",
+      "correctAnswers": 15
+    },
+    {
+      "id": 1,
+      "name": "Test Person",
+      "email": "test.person@testing.mail.com",
+      "correctAnswers": 2
+    },
+    {
+      "id": 2,
+      "name": "Test Person",
+      "email": "test.person@testing.mail.com",
+      "correctAnswers": 4
+    }
+  ]
+}

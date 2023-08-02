@@ -1,0 +1,17 @@
+.appHeader {
+  /* width: 66rem; */
+  margin-bottom: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.appHeader img {
+  height: 5.5rem;
+  width: 32.5rem;
+}
+
+.appHeader h1 {
+  /*  */
+}
