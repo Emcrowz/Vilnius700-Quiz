@@ -15,13 +15,13 @@ function StartScreen({ topic, numQuestions, dispatch }) {
         Let's start
       </button>
 
-      <button
+      {/* <button
         className="btn btn-ui"
         onClick={() => dispatch({ type: "scoreboard" })}
       >
         {" "}
         Ladderboard
-      </button>
+      </button> */}
     </div>
   );
 }
