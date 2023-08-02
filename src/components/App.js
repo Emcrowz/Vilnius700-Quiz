@@ -90,11 +90,11 @@ function reducer(state, action) {
         status: "ready",
       };
     // Case to handle form submission and say 'Thank you!'
-    case "thankyou":
-      return {
-        ...state,
-        status: "ready",
-      };
+    // case "thankyou":
+    //   return {
+    //     ...state,
+    //     status: "ready",
+    //   };
     // case "scoreboard":
     //   return {
     //     ...initialState,
