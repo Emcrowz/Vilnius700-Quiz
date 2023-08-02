@@ -145,7 +145,11 @@ function App() {
               numQuestions={numQuestions}
               dispatch={dispatch}
             />
-            <Footer>Placeholder for information and credit buttons!</Footer>
+            <Footer>
+              <p>Placeholder for information and credit buttons!</p>
+              <p>Another Placeholder</p>
+              <p>Copyrighted &copy; 2023</p>
+            </Footer>
           </>
         )}
         {status === "active" && (
