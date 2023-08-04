@@ -12,17 +12,19 @@ import FinishScreen from "./FinishScreen";
 import Footer from "./Footer";
 import Timer from "./Timer";
 import QuizScreen from "./QuizScreen";
-// import ScoreBoard from "./ScoreBoard";
 
 import "./_ComponentStyle.css";
 import styles from "./App.module.css";
+import InfoAndCredits from "./InfoAndCredits";
 
+// How many second will be needed for a question. Adds to
 const SECS_PER_QUESTION = 10;
+// Looking further - reusability. To change the general theme about what app will be.
 const TOPIC = "Vilnius";
 
 const initialState = {
   questions: [],
-  // 'loading', 'error', 'ready', 'active', 'finished'
+  // defined states, such as 'loading', 'finished' and etc.
   status: "loading",
   index: 0,
   answer: null,
@@ -89,18 +91,6 @@ function reducer(state, action) {
         questions: state.questions,
         status: "ready",
       };
-    // Case to handle form submission and say 'Thank you!'
-    // case "thankyou":
-    //   return {
-    //     ...state,
-    //     status: "ready",
-    //   };
-    // case "scoreboard":
-    //   return {
-    //     ...initialState,
-    //     questions: state.questions,
-    //     status: "results",
-    //   };
     case "tick":
       return {
         ...state,
@@ -146,9 +136,7 @@ function App() {
               dispatch={dispatch}
             />
             <Footer>
-              <p>Placeholder for information and credit buttons!</p>
-              <p>Another Placeholder</p>
-              <p>Copyrighted &copy; 2023</p>
+              <InfoAndCredits />
             </Footer>
           </>
         )}
@@ -179,12 +167,17 @@ function App() {
         )}
 
         {status === "finished" && (
-          <FinishScreen
-            points={points}
-            maxPossiblePoints={maxPossiblePoints}
-            highscore={highscore}
-            dispatch={dispatch}
-          />
+          <>
+            <FinishScreen
+              points={points}
+              maxPossiblePoints={maxPossiblePoints}
+              highscore={highscore}
+              dispatch={dispatch}
+            />
+            <Footer>
+              <InfoAndCredits />
+            </Footer>
+          </>
         )}
 
         {/* {status === "results" && <ScoreBoard dispatch={dispatch} />} */}

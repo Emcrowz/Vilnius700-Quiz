@@ -1,5 +1,3 @@
-import Form from "./Form";
-
 import styles from "./FinishScreen.module.css";
 
 function FinishScreen({ points, maxPossiblePoints, highscore, dispatch }) {

@@ -1,5 +1,10 @@
 .infoBox {
-  display: flex;
+  margin-top: 4rem;
+  display: block;
   align-items: center;
   justify-content: center;
+}
+
+.infoBox img {
+  width: 200px;
 }
