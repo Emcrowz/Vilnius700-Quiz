@@ -3,8 +3,24 @@
   display: block;
   align-items: center;
   justify-content: center;
+  overflow-wrap: normal;
 }
 
 .infoBox img {
-  width: 200px;
+}
+
+.infoBox p {
+  font-size: 1.25rem;
+}
+
+.devSocialsBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.devSocialsBox img {
+  width: 2rem;
+  height: 2rem;
 }
