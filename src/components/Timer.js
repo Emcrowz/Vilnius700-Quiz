@@ -10,8 +10,7 @@ function Timer({ secondsRemaining, dispatch }) {
     function () {
       //Timer returns a unique id every time
       const id = setInterval(function () {
-        // console.log("tick");
-        dispatch({ type: "tick" });
+        dispatch({ type: "countdown" });
       }, 1000);
 
       //Cleans up timer so it can move between renders and be consistant (stop)
