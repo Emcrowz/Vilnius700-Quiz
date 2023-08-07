@@ -1,12 +1,25 @@
 /* Global declarations. Colors, Initialisation statements and other */
+/* For Vilnius 700 logo there are 3 dominating colors
+  Logo: #E30A17 (RED by CMYK - C (10%) M (96%) Y (91%) K (1%) | RGB R (215%) G (46%) B (48%)
+  BG: #FFF (white)
+  FONT: #000 (black)
+
+  FONT: Helvetica Neue
+
+*/
 :root {
+  --color-background: #fff;
+  --color-font-color: #000;
+  --color-theme-color: #e30a17;
+
   --color-darkest: #343a40;
   --color-dark: #495057;
   --color-medium: #ced4da;
   --color-light: #f1f3f5;
 
-  --color-theme: #AE1E22;
-  --color-accent: #D35F63;
+  --color-theme: #ae1e22;
+  --color-accent: #d35f63;
+  --color-correct: #5fd46f;
 }
 
 ::-webkit-progress-bar {
@@ -14,7 +27,7 @@
   border-radius: 100px;
 }
 ::-webkit-progress-value {
-  background-color: var(--color-theme);
+  background-color: var(--color-theme-color);
   border-radius: 100px;
 }
 
@@ -36,8 +49,8 @@ html {
 
 body {
   min-height: 100vh;
-  color: var(--color-light);
-  background-color: var(--color-darkest);
+  color: var(--color-font-color);
+  background-color: var(--color-background);
   padding: 3.2rem;
 }
 

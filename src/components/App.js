@@ -12,17 +12,17 @@ import FinishScreen from "./FinishScreen";
 import Footer from "./Footer";
 import Timer from "./Timer";
 import QuizScreen from "./QuizScreen";
-// import ScoreBoard from "./ScoreBoard";
 
 import "./_ComponentStyle.css";
 import styles from "./App.module.css";
+import InfoAndCredits from "./InfoAndCredits";
 
-const SECS_PER_QUESTION = 10;
-const TOPIC = "Vilnius";
+// How many second will be needed for a question. Adds to
+const SECS_PER_QUESTION = 3.5;
 
 const initialState = {
   questions: [],
-  // 'loading', 'error', 'ready', 'active', 'finished'
+  // defined states, such as 'loading', 'finished' and etc.
   status: "loading",
   index: 0,
   answer: null,
@@ -76,32 +76,12 @@ function reducer(state, action) {
           state.points > state.highscore ? state.points : state.highscore,
       };
     case "restart":
-      // Other viable reset option.
-      // return {
-      //   ...state,
-      //   status: "ready",
-      //   index: 0,
-      //   answer: null,
-      //   points: 0,
-      // };
       return {
         ...initialState,
         questions: state.questions,
         status: "ready",
       };
-    // Case to handle form submission and say 'Thank you!'
-    // case "thankyou":
-    //   return {
-    //     ...state,
-    //     status: "ready",
-    //   };
-    // case "scoreboard":
-    //   return {
-    //     ...initialState,
-    //     questions: state.questions,
-    //     status: "results",
-    //   };
-    case "tick":
+    case "countdown":
       return {
         ...state,
         secondsRemaining: state.secondsRemaining - 1,
@@ -140,15 +120,9 @@ function App() {
         {status === "error" && <Error />}
         {status === "ready" && (
           <>
-            <StartScreen
-              topic={TOPIC}
-              numQuestions={numQuestions}
-              dispatch={dispatch}
-            />
+            <StartScreen numQuestions={numQuestions} dispatch={dispatch} />
             <Footer>
-              <p>Placeholder for information and credit buttons!</p>
-              <p>Another Placeholder</p>
-              <p>Copyrighted &copy; 2023</p>
+              <InfoAndCredits />
             </Footer>
           </>
         )}
@@ -179,12 +153,17 @@ function App() {
         )}
 
         {status === "finished" && (
-          <FinishScreen
-            points={points}
-            maxPossiblePoints={maxPossiblePoints}
-            highscore={highscore}
-            dispatch={dispatch}
-          />
+          <>
+            <FinishScreen
+              points={points}
+              maxPossiblePoints={maxPossiblePoints}
+              highscore={highscore}
+              dispatch={dispatch}
+            />
+            <Footer>
+              <InfoAndCredits />
+            </Footer>
+          </>
         )}
 
         {/* {status === "results" && <ScoreBoard dispatch={dispatch} />} */}
