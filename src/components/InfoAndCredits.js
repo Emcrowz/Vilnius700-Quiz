@@ -24,10 +24,10 @@ function InfoAndCredits() {
         <p>Web application was made by Martynas Vrubliauskas @Emcrowz</p>
 
         <div className={styles.devSocialsBox}>
-          <a href={SOCIAL_GitHub} target="_blank">
+          <a href={"#"}>
             <img src={require(`../assets/github.png`)} alt="GitHub link/icon" />
           </a>
-          <a href={SOCIAL_LinkedIn} target="_blank">
+          <a href={"#"}>
             <img
               src={require(`../assets/linkedin-logo.png`)}
               alt="LinkedIn link/icon"

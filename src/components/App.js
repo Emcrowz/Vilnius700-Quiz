@@ -18,7 +18,7 @@ import styles from "./App.module.css";
 import InfoAndCredits from "./InfoAndCredits";
 
 // How many second will be needed for a question. Adds to
-const SECS_PER_QUESTION = 10;
+const SECS_PER_QUESTION = 5;
 // Looking further - reusability. To change the general theme about what app will be.
 const TOPIC = "Vilnius";
 
