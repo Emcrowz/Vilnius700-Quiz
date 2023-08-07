@@ -18,7 +18,7 @@ import styles from "./App.module.css";
 import InfoAndCredits from "./InfoAndCredits";
 
 // How many second will be needed for a question. Adds to
-const SECS_PER_QUESTION = 4;
+const SECS_PER_QUESTION = 3.5;
 
 const initialState = {
   questions: [],
