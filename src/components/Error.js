@@ -3,7 +3,7 @@ import styles from "./Error.module.css";
 function Error() {
   return (
     <p className={styles.error}>
-      <span>💥</span> There was an error fecthing questions.
+      <span>💥</span> Nepavyko gauti duomenų.
     </p>
   );
 }

@@ -10,7 +10,7 @@ function InfoAndCredits() {
     <div className={styles.infoBox}>
       {/* <p>Placeholder for information and credit buttons!</p> */}
 
-      <p>Project curated and partialy sponsored by:</p>
+      <p>Projektas kuruotas ir dalinai remtas:</p>
       <div className={styles.sponsorBox}>
         <a href={SPONSOR_VCB} target="_blank">
           <img
@@ -21,7 +21,7 @@ function InfoAndCredits() {
       </div>
 
       <div className={styles.devCreditsBox}>
-        <p>Web application was made by Martynas Vrubliauskas @Emcrowz</p>
+        <p>Web aplikaciją sukūrė Martynas Vrubliauskas</p>
 
         <div className={styles.devSocialsBox}>
           <a href={"#"}>
@@ -35,7 +35,7 @@ function InfoAndCredits() {
           </a>
         </div>
       </div>
-      <p>Copyrighted &copy; 2023 CC-BY</p>
+      <p>Saugoma autorinų teisių &copy; 2023 CC-BY</p>
     </div>
   );
 }
