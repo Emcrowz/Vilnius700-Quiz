@@ -18,9 +18,7 @@ import styles from "./App.module.css";
 import InfoAndCredits from "./InfoAndCredits";
 
 // How many second will be needed for a question. Adds to
-const SECS_PER_QUESTION = 5;
-// Looking further - reusability. To change the general theme about what app will be.
-const TOPIC = "Vilnius";
+const SECS_PER_QUESTION = 4;
 
 const initialState = {
   questions: [],
@@ -130,11 +128,7 @@ function App() {
         {status === "error" && <Error />}
         {status === "ready" && (
           <>
-            <StartScreen
-              topic={TOPIC}
-              numQuestions={numQuestions}
-              dispatch={dispatch}
-            />
+            <StartScreen numQuestions={numQuestions} dispatch={dispatch} />
             <Footer>
               <InfoAndCredits />
             </Footer>
