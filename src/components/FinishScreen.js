@@ -6,8 +6,8 @@ function FinishScreen({ points, maxPossiblePoints, highscore, dispatch }) {
   return (
     <div className={styles.resultBox}>
       <p className={styles.result}>
-        Your score is: <strong>{points}</strong> out of {maxPossiblePoints} (
-        {Math.ceil(percentage)} %)
+        Jus teisingai atsakėte į <strong>{points}</strong> klausimus iš{" "}
+        {maxPossiblePoints} ({Math.ceil(percentage)} %)
       </p>
 
       <p className={styles.highscore}>
