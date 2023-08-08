@@ -8,8 +8,6 @@ const SOCIAL_LinkedIn =
 function InfoAndCredits() {
   return (
     <div className={styles.infoBox}>
-      {/* <p>Placeholder for information and credit buttons!</p> */}
-
       <p>Projektas kuruotas ir dalinai remtas:</p>
       <div className={styles.sponsorBox}>
         <a href={SPONSOR_VCB} target="_blank">

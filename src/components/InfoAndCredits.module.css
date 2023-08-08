@@ -6,11 +6,9 @@
   overflow-wrap: normal;
 }
 
-.infoBox img {
-}
-
 .infoBox p {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
+  padding: 0.25rem 0;
 }
 
 .devSocialsBox {
@@ -21,6 +19,6 @@
 }
 
 .devSocialsBox img {
-  width: 2rem;
-  height: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
 }

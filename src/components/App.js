@@ -80,7 +80,7 @@ const QUESTIONS_LOCAL_DATA = {
         "Apie kurią Vilniaus bažnyčią sklando legenda, kad Napoleonas sakė norįs nusinešti ją į Paryžių?",
       options: [
         "Šv. Jurgio",
-        "Šv. kazimiero",
+        "Šv. Kazimiero",
         "Šv. Onos",
         "Šv. Petro ir Povilo",
       ],
@@ -327,8 +327,7 @@ function App() {
     //   .catch((err) => dispatch({ type: "dataFailed" }));
 
     // Using the local data. For demonstration and testing purposes
-    const local_data = QUESTIONS_LOCAL_DATA.questions;
-    dispatch({ type: "dataReceived", payload: local_data });
+    dispatch({ type: "dataReceived", payload: QUESTIONS_LOCAL_DATA.questions });
   }, []);
 
   return (

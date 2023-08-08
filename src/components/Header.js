@@ -7,7 +7,6 @@ function Header() {
         src={require(`../assets/VLN_700_BRANDMARK_Red.png`)}
         alt="Vilnius 700 logo"
       />
-      {/* <h1>Vilnius 700</h1> */}
     </header>
   );
 }

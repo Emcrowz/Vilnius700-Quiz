@@ -5,25 +5,16 @@ function StartScreen({ numQuestions, dispatch }) {
     <div className={styles.start}>
       <h2>Sveiki! Patikrinkime žinias apie Vilnių!</h2>
       <h3>
-        Klausimyne yra <strong>{numQuestions}</strong> klausimai skirti
-        patikrinti Jūsų žinioms apie Vilnių!
-        <br />
-        Sėkmės!
+        Pateiksime <strong>{numQuestions}</strong> klausimus skirtus patikrinti
+        Jūsų žinias apie Vilnių!
       </h3>
+      <h2>Sėkmės!</h2>
       <button
         className="btn btn-ui"
         onClick={() => dispatch({ type: "start" })}
       >
         Pradėti
       </button>
-
-      {/* <button
-        className="btn btn-ui"
-        onClick={() => dispatch({ type: "scoreboard" })}
-      >
-        {" "}
-        Ladderboard
-      </button> */}
     </div>
   );
 }

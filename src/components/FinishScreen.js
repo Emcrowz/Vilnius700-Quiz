@@ -1,6 +1,6 @@
 import styles from "./FinishScreen.module.css";
 
-function FinishScreen({ points, maxPossiblePoints, highscore, dispatch }) {
+function FinishScreen({ points, maxPossiblePoints, dispatch }) {
   const percentage = (points / maxPossiblePoints) * 100;
 
   return (
