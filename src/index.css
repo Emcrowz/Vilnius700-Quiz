@@ -15,7 +15,8 @@
   --color-light: #f1f3f5;
   --color-medium: #ced4da;
 
-  --color-theme: #ae1e22;
+  /* #ae1e22 */
+  --color-theme: #e45658;
   --color-accent: #d35f63;
   --color-correct: #5fd46f;
 }

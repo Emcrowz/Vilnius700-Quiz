@@ -4,6 +4,7 @@ const SPONSOR_VCB = "https://www.vcb.lt/";
 const SOCIAL_GitHub = "https://github.com/Emcrowz";
 const SOCIAL_LinkedIn =
   "https://www.linkedin.com/in/martynas-vrubliauskas-7309b224a";
+const AUTHOR = "http://martynasvru.lt/";
 
 function InfoAndCredits() {
   return (
@@ -19,19 +20,9 @@ function InfoAndCredits() {
       </div>
 
       <div className={styles.devCreditsBox}>
-        <p>Web aplikaciją sukūrė Martynas Vrubliauskas</p>
-
-        <div className={styles.devSocialsBox}>
-          <a href={"#"}>
-            <img src={require(`../assets/github.png`)} alt="GitHub link/icon" />
-          </a>
-          <a href={"#"}>
-            <img
-              src={require(`../assets/linkedin-logo.png`)}
-              alt="LinkedIn link/icon"
-            />
-          </a>
-        </div>
+        <p>
+          Web aplikaciją sukūrė <a href={"#"}>Martynas Vrubliauskas</a>
+        </p>
       </div>
       <p>Saugoma autorinų teisių &copy; 2023 CC-BY</p>
     </div>

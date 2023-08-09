@@ -1,3 +1,15 @@
 .main {
-  width: 35rem;
+  width: 60rem;
+
+  @media (max-width: 600px) {
+    width: 42.5rem;
+  }
+
+  @media (max-width: 420px) {
+    width: 35rem;
+  }
+
+  @media (max-width: 350px) {
+    width: 30rem;
+  }
 }
