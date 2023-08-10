@@ -8,4 +8,5 @@
 .start h2,
 h3 {
   text-align: center;
+  word-wrap: break-word;
 }

@@ -6,7 +6,7 @@ function StartScreen({ numQuestions, dispatch }) {
       <h2>Sveiki! Patikrinkime žinias apie Vilnių!</h2>
       <h3>
         Pateiksime <strong>{numQuestions}</strong> klausimus skirtus patikrinti
-        Jūsų žinias apie Vilnių!
+        Jūsų žinioms apie Vilnių!
       </h3>
       <h2>Sėkmės!</h2>
       <button

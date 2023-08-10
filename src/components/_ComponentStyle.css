@@ -46,10 +46,6 @@
   color: var(--color-font-color);
 }
 
-.answer {
-  /* transform: translateY(1.1rem); */
-}
-
 /* ********** */
 /* First counter example */
 .counter {

@@ -1,9 +1,6 @@
 import styles from "./InfoAndCredits.module.css";
 
 const SPONSOR_VCB = "https://www.vcb.lt/";
-const SOCIAL_GitHub = "https://github.com/Emcrowz";
-const SOCIAL_LinkedIn =
-  "https://www.linkedin.com/in/martynas-vrubliauskas-7309b224a";
 const AUTHOR = "http://martynasvru.lt/";
 
 function InfoAndCredits() {
@@ -21,7 +18,7 @@ function InfoAndCredits() {
 
       <div className={styles.devCreditsBox}>
         <p>
-          Web aplikaciją sukūrė <a href={"#"}>Martynas Vrubliauskas</a>
+          Web aplikaciją sukūrė <a href={AUTHOR}>Martynas Vrubliauskas</a>
         </p>
       </div>
       <p>Saugoma autorinų teisių &copy; 2023 CC-BY</p>
