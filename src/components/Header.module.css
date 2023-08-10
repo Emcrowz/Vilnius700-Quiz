@@ -10,6 +10,11 @@
 .appHeader img {
   height: 5.5rem;
   width: 32.5rem;
+
+  @media (max-width: 380px) {
+    height: auto;
+    width: 27.5rem;
+  }
 }
 
 .appHeader h1 {
