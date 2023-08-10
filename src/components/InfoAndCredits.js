@@ -1,7 +1,7 @@
 import styles from "./InfoAndCredits.module.css";
 
 const SPONSOR_VCB = "https://www.vcb.lt/";
-const AUTHOR = "http://martynasvru.lt/";
+const AUTHOR = "https://martynasvru.lt/";
 
 function InfoAndCredits() {
   return (
