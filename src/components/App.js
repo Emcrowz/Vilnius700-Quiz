@@ -10,7 +10,6 @@ import NextButton from "./NextButton";
 import Progress from "./Progress";
 import FinishScreen from "./FinishScreen";
 import Footer from "./Footer";
-import Timer from "./Timer";
 import QuizScreen from "./QuizScreen";
 
 import "./_ComponentStyle.css";
@@ -360,7 +359,6 @@ function App() {
               answer={answer}
             />
             <Footer>
-              <Timer secondsRemaining={secondsRemaining} dispatch={dispatch} />
               <NextButton
                 dispatch={dispatch}
                 answer={answer}
