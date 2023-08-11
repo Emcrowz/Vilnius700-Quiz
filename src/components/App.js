@@ -15,6 +15,7 @@ import QuizScreen from "./QuizScreen";
 import "./_ComponentStyle.css";
 import styles from "./App.module.css";
 import InfoAndCredits from "./InfoAndCredits";
+import QuestionChanger from "./QuestionChanger";
 
 // import questions_local from "../data/questions_other.json";
 // const QUESTIONS_DEST = "http://localhost:8000/questions";
@@ -233,6 +234,7 @@ const QUESTIONS_LOCAL_DATA = {
 
 // How many second will be needed for a question. Adds to
 const SECS_PER_QUESTION = 6.5;
+const SECS_TO_CHANGE_QUESTION = 1;
 
 const initialState = {
   questions: [],
@@ -359,7 +361,8 @@ function App() {
               answer={answer}
             />
             <Footer>
-              <NextButton
+              <QuestionChanger
+                secondsToChange={SECS_TO_CHANGE_QUESTION}
                 dispatch={dispatch}
                 answer={answer}
                 index={index}
