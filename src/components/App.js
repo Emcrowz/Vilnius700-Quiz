@@ -234,7 +234,7 @@ const QUESTIONS_LOCAL_DATA = {
 
 // How many second will be needed for a question. Adds to
 const SECS_PER_QUESTION = 6.5;
-const SECS_TO_CHANGE_QUESTION = 1;
+const SECS_TO_CHANGE_QUESTION = 2;
 
 const initialState = {
   questions: [],
