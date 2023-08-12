@@ -18,7 +18,7 @@ function InfoAndCredits() {
 
       <div className={styles.devCreditsBox}>
         <p>
-          Web adaptavo <a href={AUTHOR}>Martynas Vrubliauskas</a>
+          Web aplikaciją adaptavo <a href={AUTHOR}>Martynas Vrubliauskas</a>
         </p>
       </div>
       <p>2023 &copy; CC-BY</p>
