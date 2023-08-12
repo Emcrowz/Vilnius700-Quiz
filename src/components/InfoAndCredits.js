@@ -18,10 +18,10 @@ function InfoAndCredits() {
 
       <div className={styles.devCreditsBox}>
         <p>
-          Web aplikaciją sukūrė <a href={AUTHOR}>Martynas Vrubliauskas</a>
+          Web aplikaciją adaptavo <a href={AUTHOR}>Martynas Vrubliauskas</a>
         </p>
       </div>
-      <p>Saugoma autorinų teisių &copy; 2023 CC-BY</p>
+      <p>2023 &copy; CC-BY</p>
     </div>
   );
 }
