@@ -1,0 +1,40 @@
+{
+  "questions": [
+    {
+      "question": "Kurį iš šių apsakymų parašė ne rašytoja Žemaitė?",
+      "options": ["„Topylis“", "„Vagis“", "„Sutkai“", "„Gaisras“"],
+      "correctOption": 1,
+      "points": 1
+    },
+    {
+      "question": "Seniausia lietuviška knyga - kas jos autorius ir kokia tai knyga?",
+      "options": ["M. Mažvydas: „Katekizmas“", "B", "C", "D"],
+      "correctOption": 0,
+      "points": 1
+    },
+    {
+      "question": "Ilgiausio sakinio literatūroje autorius (823 žodžiai)",
+      "options": ["A", "B", "Viktoras Hugo: „Vargdieniai“", "D"],
+      "correctOption": 2,
+      "points": 1
+    },
+    {
+      "question": "Kokia buvo Viljamo Šekspyro profesija",
+      "options": ["A", "B", "C", "Dramaturgas"],
+      "correctOption": 3,
+      "points": 1
+    },
+    {
+      "question": "Kurio garsaus rašytojo literatūrinis pseudonimas sutampa su didelio Europos miesto pavadinimu?",
+      "options": ["A", "B", "Džekas Londonas", "D"],
+      "correctOption": 2,
+      "points": 1
+    },
+    {
+      "question": "Erikas Marija Remarkas parašė knygą, kur pavadinime yra minimas obeliskas. Kokios spalvos yra šis obeliskas?",
+      "options": ["Rožinės", "Juodos", "Baltos", "Pilkos"],
+      "correctOption": 1,
+      "points": 1
+    }
+  ]
+}

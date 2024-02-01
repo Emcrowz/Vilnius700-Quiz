@@ -3,10 +3,10 @@ import styles from "./StartScreen.module.css";
 function StartScreen({ numQuestions, dispatch }) {
   return (
     <div className={styles.start}>
-      <h2>Sveiki! Patikrinkime žinias apie Vilnių!</h2>
+      {/* <h2>Patikrinkime Jūsų literatūrines žinias!</h2> */}
       <h3>
-        Pateiksime <strong>{numQuestions}</strong> klausimus skirtus patikrinti
-        Jūsų žinioms apie Vilnių!
+        Bus pateikti <strong>{numQuestions}</strong> klausimai skirti patikrinti
+        Jūsų literatūrinėms žinioms!
       </h3>
       <h2>Sėkmės!</h2>
       <button

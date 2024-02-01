@@ -3,10 +3,11 @@ import styles from "./Header.module.css";
 function Header() {
   return (
     <header className={styles.appHeader}>
-      <img
-        src={require(`../assets/VLN_700_BRANDMARK_Red.png`)}
+      <h2>Literatūrinis protmūšis!</h2>
+      {/* <img
+        src={require(`../assets/VCB_Logo_no_bg.png`)}
         alt="Vilnius 700 logo"
-      />
+      /> */}
     </header>
   );
 }

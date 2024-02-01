@@ -19,7 +19,7 @@ import QuestionChanger from "./QuestionChanger";
 
 // Connection to Firebase.
 const QUESTIONS_DEST =
-  "https://vilnius700quiz-default-rtdb.europe-west1.firebasedatabase.app/questions.json";
+  "https://literaturinis-protmusis-default-rtdb.europe-west1.firebasedatabase.app/questions.json";
 
 // How many second will be needed for a question. Adds to
 const SECS_PER_QUESTION = 6.5;
@@ -106,7 +106,7 @@ function App() {
   const numQuestions = questions.length;
   const maxPossiblePoints = questions.reduce(
     (prev, cur) => prev + cur.points,
-    0
+    0,
   );
 
   useEffect(function () {

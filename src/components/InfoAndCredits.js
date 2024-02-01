@@ -21,7 +21,9 @@ function InfoAndCredits() {
           Web aplikaciją adaptavo <a href={AUTHOR}>Martynas Vrubliauskas</a>
         </p>
       </div>
-      <p>2023 &copy; CC-BY</p>
+      <p>Projektas sukurtas naudojant React ir Redux, Firebase DB.</p>
+      <p>Projektas patalpintas su Netlify.</p>
+      <p>2024&copy; CC-BY</p>
     </div>
   );
 }
