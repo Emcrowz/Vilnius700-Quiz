@@ -35,6 +35,102 @@
       "options": ["Rožinės", "Juodos", "Baltos", "Pilkos"],
       "correctOption": 1,
       "points": 1
+    },
+    {
+      "question": "Undinės Radzevičiūtės romano pavadinimas ir kilmingų žmonių kraujo spalva. Kokia tai spalva?",
+      "options": ["Raudona", "Mėlyna", "Purpurinė", "Rožinė"],
+      "correctOption": 1,
+      "points": 1
+    },
+    {
+      "question": "Juozas Nekrošius parašė knygą apie antrąją lietuvių religiją. Kokia spalva minima pavadinime?",
+      "options": ["Geltona", "Raudona", "Oranžinė", "Žalia"],
+      "correctOption": 2,
+      "points": 1
+    },
+    {
+      "question": "Kokiomis spalvomis Lietuvą nutapė Maironis eilėraštyje „Lietuva brangi“?",
+      "options": ["Geltona, raudona, žalia", "Balta, žalia, mėlyna", "Geltona, balta, žalia", "Mėlyna, žalia, balta"],
+      "correctOption": 3,
+      "points": 1
+    },
+    {
+      "question": "„Mindaugas“, „Mažvydas“ ir... Kokios dar vienos dramos pavadinimo trūksta, kad būtų užbaigta poeto Justino Marcinkevičiaus draminė trilogija?",
+      "options": ["„Katedra“", "„Bažnyčia“", "„Gediminas“", "„Kęstutis“"],
+      "correctOption": 0,
+      "points": 1
+    },
+    {
+      "question": "„Mindaugas“, „Mažvydas“ ir... Kokios dar vienos dramos pavadinimo trūksta, kad būtų užbaigta poeto Justino Marcinkevičiaus draminė trilogija?",
+      "options": ["„Katedra“", "„Bažnyčia“", "„Gediminas“", "„Kęstutis“"],
+      "correctOption": 0,
+      "points": 1
+    },
+    {
+      "question": "Kuri tauta skaito daugiausiai?",
+      "options": ["Lietuviai", "Norvegai", "Islandai", "Estai"],
+      "correctOption": 2,
+      "points": 1
+    },
+    {
+      "question": "Kaip išsiverčia K. Sabaliauskaitės knygos „Silva rerum“ pavadinimas iš lotynų kalbos?",
+      "options": ["„Dalykų horizontai“", "„Daiktų miškas“", "„Šlovė miškui“", "„Iš daiktų“"],
+      "correctOption": 1,
+      "points": 1
+    },
+    {
+      "question": "Apie kokią respubliką rašė Jurgis Kunčinas romane „Tūla“?",
+      "options": ["Užupio respubliką", "Panemunės respubliką", "Nemuno respubliką", "Paupio respubliką"],
+      "correctOption": 0,
+      "points": 1
+    },
+    {
+      "question": "Kaip vadinasi bene didžiausios apimties Vlado Drėmos knyga apie Vilniaus istoriją? (634 istorinės iliustracijos, sunaikinti ar pakeisti architektūros paminklai)",
+      "options": ["„Prisimintas Vilnius“", "„Atsiradęs Vlnius“", "„Užmirštas Vilnius“", "„Dingęs Vilnius“"],
+      "correctOption": 3,
+      "points": 1
+    },
+    {
+      "question": "Kiek kartų Ričardo Gavelio romane „Vilniaus pokeris“ paminėtas žodis „Vilnius“",
+      "options": ["78 kartus", "312 kartus", "624 kartus", "156 kartus"],
+      "correctOption": 2,
+      "points": 1
+    },
+    {
+      "question": "Vienintelis giedantis paukštis, kuris paminėtas Biblijoje",
+      "options": ["Gaidys", "Višta", "Lakštingala", "Kalakutas"],
+      "correctOption": 0,
+      "points": 1
+    },
+    {
+      "question": "„Lapės ir gandro čėsnis“, „Rudikis jomarkininks“, „ŠuoDidgalvis“, „Pasaka apie šūdvabalį“, „Vilks provininks“. Kas parašė visas šias pasakėčias?",
+      "options": ["Marius Marcinkevičius", "Kristijonas Donelaitis", "Simonas Stanevičius", "Pranas Mašiotas"],
+      "correctOption": 1,
+      "points": 1
+    },
+    {
+      "question": "Kokiame Lietuvos mieste yra pastatytas paminklas knygnešiui?",
+      "options": ["Kaune", "Vilniuje", "Druskininkuose", "Šiauliuose"],
+      "correctOption": 0,
+      "points": 1
+    },
+    {
+      "question": "Kokia buvo Honore de Balzako profesija?",
+      "options": ["Mokslininkas", "Verslininkas", "Teisininkas", "Bibliotekininkas"],
+      "correctOption": 2,
+      "points": 1
+    },
+    {
+      "question": "Kokia buvo Liudo Giros profesija?",
+      "options": ["Batsiuvys", "Teisininkas", "Kunigas", "Verslininkas"],
+      "correctOption": 1,
+      "points": 1
+    },
+    {
+      "question": "Kokiu terminu vadinamas žmogus, vagiantis knygas?",
+      "options": ["Kleptomanas", "Vagis", "Bibliomanas", "Bibliokleptomanas"],
+      "correctOption": 3,
+      "points": 1
     }
   ]
 }
