@@ -7,6 +7,15 @@
   flex-wrap: wrap;
 }
 
+.title {
+  font-size: 4.5rem;
+  font-weight: 800;
+  line-height: 1.5;
+  text-align: center;
+
+  margin-bottom: 1em;
+}
+
 .appHeader img {
   height: auto;
   width: 32.5rem;

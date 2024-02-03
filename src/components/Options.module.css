@@ -2,10 +2,11 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   flex-direction: column;
-  gap: 1.45rem;
+  gap: 1.8rem;
+  margin-top: 3.2rem;
   margin-bottom: 3.2rem;
 
-  @media (max-width: 420px) {
+  @media (max-width: 750px) {
     display: flex;
   }
 }
