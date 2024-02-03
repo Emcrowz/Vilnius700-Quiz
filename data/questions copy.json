@@ -8,25 +8,25 @@
     },
     {
       "question": "Seniausia lietuviška knyga - kas jos autorius ir kokia tai knyga?",
-      "options": ["M. Mažvydas: „Katekizmas“", "B", "C", "D"],
+      "options": ["M. Mažvydas: „Katekizmas“", "J. Bretkūno biblijos vertimas", "P. Skorina „Mažoji kelionių knygelė“", "M. Daukša „Kathechizmas, arba Mokslas, kiekvienam krikščioniui privalus“"],
       "correctOption": 0,
       "points": 1
     },
     {
       "question": "Ilgiausio sakinio literatūroje autorius (823 žodžiai)",
-      "options": ["A", "B", "Viktoras Hugo: „Vargdieniai“", "D"],
+      "options": ["Nigelas Tommas: „The Blah Story“", "Džeimsas Joisas: „Ulysses“", "Viktoras Hugo: „Vargdieniai“", "Jerzy Andrejewski: „Rojaus vartai“"],
       "correctOption": 2,
       "points": 1
     },
     {
       "question": "Kokia buvo Viljamo Šekspyro profesija",
-      "options": ["A", "B", "C", "Dramaturgas"],
+      "options": ["Kompozitorius", "Baletmeisteris", "Aktorius", "Dramaturgas"],
       "correctOption": 3,
       "points": 1
     },
     {
       "question": "Kurio garsaus rašytojo literatūrinis pseudonimas sutampa su didelio Europos miesto pavadinimu?",
-      "options": ["A", "B", "Džekas Londonas", "D"],
+      "options": ["Viktoras Berlynas", "Ema Roma", "Džekas Londonas", "Jonas Milanas"],
       "correctOption": 2,
       "points": 1
     },
@@ -52,12 +52,6 @@
       "question": "Kokiomis spalvomis Lietuvą nutapė Maironis eilėraštyje „Lietuva brangi“?",
       "options": ["Geltona, raudona, žalia", "Balta, žalia, mėlyna", "Geltona, balta, žalia", "Mėlyna, žalia, balta"],
       "correctOption": 3,
-      "points": 1
-    },
-    {
-      "question": "„Mindaugas“, „Mažvydas“ ir... Kokios dar vienos dramos pavadinimo trūksta, kad būtų užbaigta poeto Justino Marcinkevičiaus draminė trilogija?",
-      "options": ["„Katedra“", "„Bažnyčia“", "„Gediminas“", "„Kęstutis“"],
-      "correctOption": 0,
       "points": 1
     },
     {
@@ -129,6 +123,66 @@
     {
       "question": "Kokiu terminu vadinamas žmogus, vagiantis knygas?",
       "options": ["Kleptomanas", "Vagis", "Bibliomanas", "Bibliokleptomanas"],
+      "correctOption": 3,
+      "points": 1
+    },
+    {
+      "question": "Kaip vadinosi pirmasis lietuviškas dienraštis, imtas leisti XX a. pr. Vilniuje?",
+      "options": ["„Vilniaus naujienos“", "„Vilniaus žinios“", "„Vilniaus informacija“", "„Vilniaus kronikos“"],
+      "correctOption": 1,
+      "points": 1
+    },
+    {
+      "question": "Kas parašė pasakas apie Alisą stebuklų šalyje?",
+      "options": ["Laimanas Frenkas Baumas", "Simonas Stanevičius", "Luisas Kerolis", "Alanas Aleksanderis Milnas"],
+      "correctOption": 2,
+      "points": 1
+    },
+    {
+      "question": "Ko pasakoje „Ledinukas“ nepavyko sušaldyti Senio Šalčio anūkui Ledinukui?",
+      "options": ["Kareivio", "Medžiotojo", "Prekeivio", "Valstiečio"],
+      "correctOption": 3,
+      "points": 1
+    },
+    {
+      "question": "Viljamo Šekspyro komedija „Vasarvidžio nakties...“ Kas?",
+      "options": ["Šventė", "Sapnas", "Mėnuo", "Metai"],
+      "correctOption": 1,
+      "points": 1
+    },
+    {
+      "question": "Kas brolių Grimų pasakoje buvo vardu Rozamunda?",
+      "options": ["Miegančioji gražuolė", "Snieguolė", "Pelenė", "Princesė"],
+      "correctOption": 0,
+      "points": 1
+    },
+    {
+      "question": "Kuri knyga apie Harį Poterį buvo pirmoji?",
+      "options": ["„Haris Poteris ir Paslapčių kambarys“", "„Haris Poteris ir Ugnies taurė“", "„Haris Poteris ir Išminties akmuo“", "„Haris Poteris ir mirties relikvijos“"],
+      "correctOption": 2,
+      "points": 1
+    },
+    {
+      "question": "Kuris pasakos personažas buvo rastaspo Kalėdų eglute?",
+      "options": ["Coliukė", "Spragtukas", "Pinokis", "Buratinas"],
+      "correctOption": 1,
+      "points": 1
+    },
+    {
+      "question": "Kokia pasakoje „Batuotas katinas“ buvo palikimą trims sūnums išdalijusiotėvo profesija?",
+      "options": ["Malūnininkas", "Smuklininkas", "Pirklys", "Stalius"],
+      "correctOption": 0,
+      "points": 1
+    },
+    {
+      "question": "Kuris šventasis laikomas bibliotekų globėju?",
+      "options": ["Šv. Laurynas", "Šv. Evaldas", "Šv. Benedikta", "Šv. Valerija"],
+      "correctOption": 0,
+      "points": 1
+    },
+    {
+      "question": "Ką daro Hario Poterio pasaulyje naudojamas burtas ALOHAMORA?",
+      "options": ["Kelia daiktus į orą", "Paverčia kitą į varlę", "Sukuria šviesą", "Atrakina duris"],
       "correctOption": 3,
       "points": 1
     }
