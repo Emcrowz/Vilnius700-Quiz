@@ -6,7 +6,7 @@ const AUTHOR = "https://martynasvru.lt/";
 function InfoAndCredits() {
   return (
     <div className={styles.infoBox}>
-      <p>Projektas kuruotas ir dalinai remtas:</p>
+      {/* <p>Projektas kuruotas ir dalinai remtas:</p>
       <div className={styles.sponsorBox}>
         <a href={SPONSOR_VCB} target="_blank">
           <img
@@ -14,7 +14,7 @@ function InfoAndCredits() {
             alt="Vilniaus miesto savivaldybės centrinė biblioteka logotipas"
           />
         </a>
-      </div>
+      </div> */}
 
       <div className={styles.devCreditsBox}>
         <p>

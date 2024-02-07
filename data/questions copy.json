@@ -8,13 +8,23 @@
     },
     {
       "question": "Seniausia lietuviška knyga - kas jos autorius ir kokia tai knyga?",
-      "options": ["M. Mažvydas: „Katekizmas“", "J. Bretkūno biblijos vertimas", "P. Skorina „Mažoji kelionių knygelė“", "M. Daukša „Kathechizmas, arba Mokslas, kiekvienam krikščioniui privalus“"],
+      "options": [
+        "M. Mažvydas: „Katekizmas“",
+        "J. Bretkūno biblijos vertimas",
+        "P. Skorina „Mažoji kelionių knygelė“",
+        "M. Daukša „Kathechizmas, arba Mokslas, kiekvienam krikščioniui privalus“"
+      ],
       "correctOption": 0,
       "points": 1
     },
     {
       "question": "Ilgiausio sakinio literatūroje autorius (823 žodžiai)",
-      "options": ["Nigelas Tommas: „The Blah Story“", "Džeimsas Joisas: „Ulysses“", "Viktoras Hugo: „Vargdieniai“", "Jerzy Andrejewski: „Rojaus vartai“"],
+      "options": [
+        "Nigelas Tommas: „The Blah Story“",
+        "Džeimsas Joisas: „Ulysses“",
+        "Viktoras Hugo: „Vargdieniai“",
+        "Jerzy Andrejewski: „Rojaus vartai“"
+      ],
       "correctOption": 2,
       "points": 1
     },
@@ -26,7 +36,12 @@
     },
     {
       "question": "Kurio garsaus rašytojo literatūrinis pseudonimas sutampa su didelio Europos miesto pavadinimu?",
-      "options": ["Viktoras Berlynas", "Ema Roma", "Džekas Londonas", "Jonas Milanas"],
+      "options": [
+        "Viktoras Berlynas",
+        "Ema Roma",
+        "Džekas Londonas",
+        "Jonas Milanas"
+      ],
       "correctOption": 2,
       "points": 1
     },
@@ -49,8 +64,13 @@
       "points": 1
     },
     {
-      "question": "Kokiomis spalvomis Lietuvą nutapė Maironis eilėraštyje „Lietuva brangi“?",
-      "options": ["Geltona, raudona, žalia", "Balta, žalia, mėlyna", "Geltona, balta, žalia", "Mėlyna, žalia, balta"],
+      "question": "Kurio menininko artimiausias bičiulis ir bendražygis buvo Johanas Volfgangas fon Gėtė?",
+      "options": [
+        "Džordžo Bairono",
+        "Liudvigo van Bethoveno",
+        "Šopeno",
+        "Frydricho Šilerio"
+      ],
       "correctOption": 3,
       "points": 1
     },
@@ -68,19 +88,34 @@
     },
     {
       "question": "Kaip išsiverčia K. Sabaliauskaitės knygos „Silva rerum“ pavadinimas iš lotynų kalbos?",
-      "options": ["„Dalykų horizontai“", "„Daiktų miškas“", "„Šlovė miškui“", "„Iš daiktų“"],
+      "options": [
+        "„Dalykų horizontai“",
+        "„Daiktų miškas“",
+        "„Šlovė miškui“",
+        "„Iš daiktų“"
+      ],
       "correctOption": 1,
       "points": 1
     },
     {
       "question": "Apie kokią respubliką rašė Jurgis Kunčinas romane „Tūla“?",
-      "options": ["Užupio respubliką", "Panemunės respubliką", "Nemuno respubliką", "Paupio respubliką"],
+      "options": [
+        "Užupio respubliką",
+        "Panemunės respubliką",
+        "Nemuno respubliką",
+        "Paupio respubliką"
+      ],
       "correctOption": 0,
       "points": 1
     },
     {
       "question": "Kaip vadinasi bene didžiausios apimties Vlado Drėmos knyga apie Vilniaus istoriją? (634 istorinės iliustracijos, sunaikinti ar pakeisti architektūros paminklai)",
-      "options": ["„Prisimintas Vilnius“", "„Atsiradęs Vlnius“", "„Užmirštas Vilnius“", "„Dingęs Vilnius“"],
+      "options": [
+        "„Prisimintas Vilnius“",
+        "„Atsiradęs Vlnius“",
+        "„Užmirštas Vilnius“",
+        "„Dingęs Vilnius“"
+      ],
       "correctOption": 3,
       "points": 1
     },
@@ -98,7 +133,12 @@
     },
     {
       "question": "„Lapės ir gandro čėsnis“, „Rudikis jomarkininks“, „ŠuoDidgalvis“, „Pasaka apie šūdvabalį“, „Vilks provininks“. Kas parašė visas šias pasakėčias?",
-      "options": ["Marius Marcinkevičius", "Kristijonas Donelaitis", "Simonas Stanevičius", "Pranas Mašiotas"],
+      "options": [
+        "Marius Marcinkevičius",
+        "Kristijonas Donelaitis",
+        "Simonas Stanevičius",
+        "Pranas Mašiotas"
+      ],
       "correctOption": 1,
       "points": 1
     },
@@ -110,7 +150,12 @@
     },
     {
       "question": "Kokia buvo Honore de Balzako profesija?",
-      "options": ["Mokslininkas", "Verslininkas", "Teisininkas", "Bibliotekininkas"],
+      "options": [
+        "Mokslininkas",
+        "Verslininkas",
+        "Teisininkas",
+        "Bibliotekininkas"
+      ],
       "correctOption": 2,
       "points": 1
     },
@@ -128,20 +173,24 @@
     },
     {
       "question": "Kaip vadinosi pirmasis lietuviškas dienraštis, imtas leisti XX a. pr. Vilniuje?",
-      "options": ["„Vilniaus naujienos“", "„Vilniaus žinios“", "„Vilniaus informacija“", "„Vilniaus kronikos“"],
+      "options": [
+        "„Vilniaus naujienos“",
+        "„Vilniaus žinios“",
+        "„Vilniaus informacija“",
+        "„Vilniaus kronikos“"
+      ],
       "correctOption": 1,
       "points": 1
     },
     {
       "question": "Kas parašė pasakas apie Alisą stebuklų šalyje?",
-      "options": ["Laimanas Frenkas Baumas", "Simonas Stanevičius", "Luisas Kerolis", "Alanas Aleksanderis Milnas"],
+      "options": [
+        "Laimanas Frenkas Baumas",
+        "Simonas Stanevičius",
+        "Luisas Kerolis",
+        "Alanas Aleksanderis Milnas"
+      ],
       "correctOption": 2,
-      "points": 1
-    },
-    {
-      "question": "Ko pasakoje „Ledinukas“ nepavyko sušaldyti Senio Šalčio anūkui Ledinukui?",
-      "options": ["Kareivio", "Medžiotojo", "Prekeivio", "Valstiečio"],
-      "correctOption": 3,
       "points": 1
     },
     {
@@ -158,7 +207,12 @@
     },
     {
       "question": "Kuri knyga apie Harį Poterį buvo pirmoji?",
-      "options": ["„Haris Poteris ir Paslapčių kambarys“", "„Haris Poteris ir Ugnies taurė“", "„Haris Poteris ir Išminties akmuo“", "„Haris Poteris ir mirties relikvijos“"],
+      "options": [
+        "„Haris Poteris ir Paslapčių kambarys“",
+        "„Haris Poteris ir Ugnies taurė“",
+        "„Haris Poteris ir Išminties akmuo“",
+        "„Haris Poteris ir mirties relikvijos“"
+      ],
       "correctOption": 2,
       "points": 1
     },
@@ -169,20 +223,30 @@
       "points": 1
     },
     {
-      "question": "Kokia pasakoje „Batuotas katinas“ buvo palikimą trims sūnums išdalijusiotėvo profesija?",
+      "question": "Kokia pasakoje „Batuotas katinas“ buvo palikimą trims sūnums išdalijusio tėvo profesija?",
       "options": ["Malūnininkas", "Smuklininkas", "Pirklys", "Stalius"],
       "correctOption": 0,
       "points": 1
     },
     {
       "question": "Kuris šventasis laikomas bibliotekų globėju?",
-      "options": ["Šv. Laurynas", "Šv. Evaldas", "Šv. Benedikta", "Šv. Valerija"],
+      "options": [
+        "Šv. Laurynas",
+        "Šv. Evaldas",
+        "Šv. Benedikta",
+        "Šv. Valerija"
+      ],
       "correctOption": 0,
       "points": 1
     },
     {
       "question": "Ką daro Hario Poterio pasaulyje naudojamas burtas ALOHAMORA?",
-      "options": ["Kelia daiktus į orą", "Paverčia kitą į varlę", "Sukuria šviesą", "Atrakina duris"],
+      "options": [
+        "Kelia daiktus į orą",
+        "Paverčia kitą į varlę",
+        "Sukuria šviesą",
+        "Atrakina duris"
+      ],
       "correctOption": 3,
       "points": 1
     }
