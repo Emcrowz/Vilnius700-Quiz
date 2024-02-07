@@ -5,8 +5,8 @@ function StartScreen({ numQuestions, dispatch }) {
     <div className={styles.start}>
       {/* <h2>Patikrinkime Jūsų literatūrines žinias!</h2> */}
       <h3>
-        Bus pateiktas <strong>{numQuestions}</strong> klausimas skirtas
-        patikrinti Jūsų literatūrinėms žinioms!
+        Bus pateikta <strong>{numQuestions}</strong> klausimų skirtų patikrinti
+        Jūsų literatūrinėms žinioms!
       </h3>
       <h2>Sėkmės!</h2>
       <button
