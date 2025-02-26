@@ -1,7 +1,7 @@
 import styles from "./InfoAndCredits.module.css";
 
 const SPONSOR_VCB = "https://www.vcb.lt/";
-const AUTHOR = "https://martynasvru.lt/";
+const AUTHOR = "https://emcrowz.github.io/";
 
 function InfoAndCredits() {
   return (
@@ -21,7 +21,7 @@ function InfoAndCredits() {
           Web aplikaciją adaptavo <a href={AUTHOR}>Martynas Vrubliauskas</a>
         </p>
       </div>
-      <p>2023 &copy; CC-BY</p>
+      <p>2025 &copy; CC-BY</p>
     </div>
   );
 }
