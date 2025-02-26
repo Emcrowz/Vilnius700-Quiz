@@ -1,7 +1,7 @@
 import styles from "./InfoAndCredits.module.css";
 
 const SPONSOR_VCB = "https://www.vcb.lt/";
-const AUTHOR = "https://martynasvru.lt/";
+const AUTHOR = "https://emcrowz.github.io/";
 
 function InfoAndCredits() {
   return (
@@ -23,7 +23,7 @@ function InfoAndCredits() {
       </div>
       <p>Projektas sukurtas naudojant React ir Redux, Firebase DB.</p>
       <p>Projektas patalpintas su Netlify.</p>
-      <p>2024&copy; CC-BY</p>
+      <p>2025&copy; CC-BY</p>
     </div>
   );
 }
