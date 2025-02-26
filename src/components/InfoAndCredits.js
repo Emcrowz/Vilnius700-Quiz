@@ -20,6 +20,8 @@ function InfoAndCredits() {
         <p>
           Web aplikaciją adaptavo <a href={AUTHOR}>Martynas Vrubliauskas</a>
         </p>
+        <p>Projektas suskurtas naudojant React, Redux ir Firebase DB.</p>
+        <p>Projektas patalpintas naudojant Netlify.</p>
       </div>
       <p>2025 &copy; CC-BY</p>
     </div>
