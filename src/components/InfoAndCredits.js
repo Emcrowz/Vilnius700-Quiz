@@ -22,6 +22,8 @@ function InfoAndCredits() {
         </p>
       </div>
       <p>2025 &copy; CC-BY</p>
+      <p>Projektas suskurtas naudojant React, Redux ir Firebase DB.</p>
+      <p>Projektas patalpintas naudojant Netlify.</p>
     </div>
   );
 }
